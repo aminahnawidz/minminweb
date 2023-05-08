@@ -1,0 +1,179 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: century gothic, sans-serif;
+}
+body{
+background:transparent;
+display: flex;
+justify-content: center;
+align-items: top;
+min-height: 100vh;
+}
+.holder{
+position: relative;
+width: 80%;
+max-width: 800px;
+max-height: 50%;
+height: 900px;
+background: white;
+display: grid;
+margin: 80px;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0 35px 55px red;
+overflow: hidden;
+}
+.holder .leftside{
+	position: relative;
+	background: maroon;
+	padding: 40px;
+}
+.profiletext{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid white;
+}
+.profiletext .imgbox{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	overflow: hidden;
+}
+.profiletext .imgbox img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.profiletext h2{
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing:2px;
+}
+.profiletext h2 span{
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing:0.1px;
+}
+.contactinfo {
+	padding-top: 40px;
+}
+.contactinfo .title{
+	color: white;
+	text-transform: uppercase;
+	font-weight:600;
+	letter-spacing: 1px;
+	margin-bottom:20px;
+}
+.contactinfo ul{
+	position: relative;
+}
+.contactinfo ul li{
+	position: relative;
+	list-style: none;
+	margin: 10px 0;
+	cursor:pointer;
+}
+.contactinfo ul li .icon{
+	display: inline-block;
+	width: 30px;
+	font-size: 18px;
+	color: red;
+}
+.contactinfo ul li span{
+	color: white;
+	font-weight:500;
+}
+.objective {
+	padding-top: 40px;
+}
+.objective .title{
+	color: white;
+	text-transform: uppercase;
+	font-weight:600;
+	letter-spacing: 1px;
+	margin-bottom:20px;
+}
+.objective p{
+	color: white;
+	font-weight:500;
+	margin: 10px 0;
+}	
+.holder .rightside{
+	position: relative;
+	background: gray;
+	padding:2% 10%;
+}
+.education span{
+	position: relative;
+}
+	
+.education .title2{
+		color: white;
+	text-transform: uppercase;
+	font-weight:600;
+	letter-spacing: 2px;
+	margin-bottom:10px;
+}
+.education ul{
+		position: relative;
+}
+.education ul li{
+	position: relative;
+	list-style: none;
+	margin: 10px 0;
+	cursor:pointer;
+	line-height: 20px;
+}
+.education ul li h5{
+	color: navy;
+	font-weight:900;
+	letter-spacing: 3px;
+}
+.education ul li h4{
+		color: white;
+	font-weight:500;
+}
+.skills {
+	padding-top: 40px;
+}
+.skills .title2{
+	color: white;
+	text-transform: uppercase;
+	font-weight:600;
+	letter-spacing: 3px;
+	margin-bottom:20px;
+}
+.skills ul{
+	position: relative;
+}
+.skills ul li{
+	position: relative;
+	list-style: none;
+	margin: 10px 0;
+	cursor:pointer;
+	line-height: 30px;
+}
+.skills ul li h4{
+	color: navy;
+	font-size: 18px;
+	font-weight:1000;
+	letter-spacing: 3px;
+	
+}
+.skills ul li h5{
+		color: white;
+	font-weight:500;
+}
